@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "airbnb"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "semi": "off",
+    "no-extra-semi": "error"
+  },
+  "settings": {
+    "import/no-unresolved": ["off"]
+  }
+}
